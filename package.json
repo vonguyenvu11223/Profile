@@ -12,6 +12,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-scroll": "^1.8.9",
     "sass": "^1.68.0",
     "scss": "^0.2.4"
   },
@@ -19,6 +20,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/react-scroll": "^1.8.8",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "typescript": "latest"

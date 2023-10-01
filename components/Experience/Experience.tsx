@@ -30,7 +30,7 @@ const Experience = () => {
     }, [])
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id='experience'>
             <h1 className={styles.h1}>Experience</h1>
             <div className={styles.contentContainer}>
                 <div className={styles.contentLeft}>

@@ -2,7 +2,7 @@ import styles from './contact.module.scss';
 
 const Contact = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id='contact'>
             <h1 className={styles.title}>Contact Me</h1>
             <div className={styles.logo}>
                 <a href="https://www.instagram.com/uv.neyugn_/" rel="noopener noreferrer" target="_blank">

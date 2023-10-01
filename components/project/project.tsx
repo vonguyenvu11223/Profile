@@ -7,7 +7,7 @@ import Item from './item'
 
 const Project = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id='project'>
             <h1 className={styles.title}>Project</h1>
             <div className={styles.contentContainer}>
                 <Item language='1' href='https://github.com/anhduy1202/fullyhacks' src="https://www.danieltruongg.com/_ipx/w_1920,q_75/%2Ffullyhacks.png?url=%2Ffullyhacks.png&w=1920&q=75" title="FullyHack 2023" desc="Full-stack hackathon website for CSUF, with application feature, atuthentication, user poral, user feed, admin portal,..." />
