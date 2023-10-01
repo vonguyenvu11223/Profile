@@ -1,0 +1,24 @@
+$background-color-header: rgba(59,59,59,255);
+$text-color: #e1e1e1;
+
+.container{
+    background-color: $background-color-header;
+    color: $text-color;
+    width: 1105px;
+    border-radius: 9px;
+    margin: 0 auto;
+    .headerContainer{
+        .ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                list-style: none;
+                font-weight: 700;
+                color: $text-color;
+                font-size: 22px;
+                padding: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}

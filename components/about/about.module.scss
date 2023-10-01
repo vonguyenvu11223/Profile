@@ -1,0 +1,35 @@
+$border-color: #4e4e4e;
+
+.container{
+    text-align: center;
+    border-bottom: 3px solid $border-color;
+    h1{
+        color: #bad2ff;
+        font-size: 50px;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        margin: 0 80px;
+        margin-bottom: 60px;
+        .contentImg{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+            }
+        }
+        .contentText{
+            flex: 3;
+            p{
+                text-align: start;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+}

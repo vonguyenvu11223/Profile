@@ -1,0 +1,76 @@
+$title-color: #bad2ff;
+$background-color: #ededed;
+$backgorund-item: #bad2ff;
+$border-color: #4e4e4e;
+
+
+.container{
+    max-width: 100%;
+    border-bottom: 3px solid $border-color;
+    .title{
+        color: $title-color;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .contentContainer{
+        margin-bottom: 100px;
+        max-width: 100%;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .content{
+            height: 490px;
+            width: 29%;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            background-color: $background-color;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            &:hover{
+                transform: scale(1.1);
+                transition: .3s;
+            }
+            .img{
+                max-width: 100%;
+            }
+            .itemContainer{
+                margin: 0 14px;
+                .h3{
+                    color: #000;
+                    font-size: 22px;
+                }
+                .itemLists{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 14px;
+                    .item{
+                        width: max-content;
+                        padding: 4px 8px;
+                        background-color: $backgorund-item;
+                        border-radius: 8px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 18px;
+                        color: #000;
+                        justify-content: space-between;
+                        font-weight: bold;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+
+                p{
+                    color: #000;
+                    font-size: 20px;
+                }
+            }
+        }    
+    }
+}

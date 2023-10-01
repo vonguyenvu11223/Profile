@@ -1,0 +1,19 @@
+.container{
+    margin-left: 40px;
+    .textContainer{
+        opacity: 0;
+        transition: opacity .5s ease-in;
+    }
+    .active{
+        opacity: 1;
+    }
+    h1{
+        font-size: 26px;
+        span{
+            color: #4fa6dc;
+        }
+    }
+    h3{
+        font-size: 18px;
+    }
+}
