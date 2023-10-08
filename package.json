@@ -14,7 +14,8 @@
     "react-dom": "latest",
     "react-scroll": "^1.8.9",
     "sass": "^1.68.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "surge": "^0.23.1"
   },
   "devDependencies": {
     "@types/node": "latest",
